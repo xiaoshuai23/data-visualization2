@@ -1,0 +1,54 @@
+
+html, body, canvas {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    background-color: #fff;
+}
+
+body {
+    background-color: #000;
+    width: 1920px;
+    height: 1080px;
+    padding: 28px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-family: "SourceHanSansCN Light ";
+}
+
+#cases, #mumber {
+    width: 928px;
+    height: 1030px;
+    background-color: #27282c;
+}
+
+#cases {
+    float: left;
+}
+
+#mumber {
+    float: right;
+}
+
+#cases #handle {
+    width: 100%;
+    height: 210px;
+}
+
+#cases #source {
+    width: 100%;
+    height: 520px;
+}
+
+#cases #trade {
+    width: 100%;
+    height: 300px;
+}
+
+#mumber #map {
+    width: 928px;
+    height: 800px;
+    margin: 15% auto;
+}
